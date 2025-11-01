@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Fullheight {
+  min-height: 100vh; /* ✅ allows it to grow if content exceeds viewport */
+  scroll-margin-top: 50px; /* ✅ keep this if you’re using anchor links */
+}
+.horizontalstyling {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: grey;
+  cursor: pointer;
+}
+.navbarposition {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.skillsicon {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30px;
+}
