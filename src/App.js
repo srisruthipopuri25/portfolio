@@ -28,7 +28,7 @@ export default function App() {
       {value == "experience" ? <Experience></Experience> : ""}
       {value == "contactMe" ? <ContactMe></ContactMe> : ""}  */}
       <Home></Home>
-      <About></About>[]
+      <About></About>
       <Skills></Skills>
       <Works></Works>
       <Experience></Experience>

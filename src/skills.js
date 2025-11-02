@@ -12,7 +12,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className="Fullheight py-20 bg-gray-50" id="skills">
+    <div className="Fullheight py-20" id="skills">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800">
           My <span className="text-blue-600">Skills</span>

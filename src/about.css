@@ -21,6 +21,17 @@
   width: 100%;
 }
 
+.about-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 auto;
+}
+
 .about-box {
   background: #f9fafb;
   border-radius: 8px;
@@ -50,6 +61,18 @@
   
   .about-text {
     font-size: 1rem;
+  }
+
+  .about-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-image {
+    width: 120px;
+    height: 120px;
   }
 }
 
