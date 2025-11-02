@@ -1,6 +1,8 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  background-color: #f5f3ef;
+  min-height: 100vh;
 }
 .Fullheight {
   min-height: 100vh; /* ✅ allows it to grow if content exceeds viewport */

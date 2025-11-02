@@ -7,14 +7,15 @@ export default function Home() {
         <div className="home-left">
           <div className="home-greeting">Hey There, Welcome!!</div>
 
-          <div className="wave-text">
-            I am <span>S</span> <span>R</span> <span>U</span>
-            <span>T</span> <span>H</span> <span>I</span>
+          <div className="name-container">
+            <span className="normal-text">I am</span>
+            <div className="wave-text">
+              <span>S</span><span>R</span><span>U</span><span>T</span><span>H</span><span>I</span>
+            </div>
+            <a target="_blank" href="https://drive.google.com/file/d/1QG-MTWF-vSX62hYl5pAPM7GSjTeXMqUe/view?usp=sharing" className="resume-link">
+              Resume
+            </a>
           </div>
-
-          <a target="_blank" href="https://drive.google.com/file/d/1QG-MTWF-vSX62hYl5pAPM7GSjTeXMqUe/view?usp=sharing" className="resume-link">
-            Resume
-          </a>
         </div>
 
         <div className="home-right">
