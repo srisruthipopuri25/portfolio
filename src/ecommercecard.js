@@ -2,7 +2,7 @@ export default function EcommerceCard() {
   return (
     <div className="relative bg-[#0b2545] text-white p-6 mt-10 rounded-2xl w-80 text-center shadow-lg mx-auto">
       
-      {/* Circle icon floating above card */}
+
       <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-white p-3 rounded-full shadow-md">
         <img
           src="https://cdn-icons-png.flaticon.com/512/891/891462.png"
@@ -19,7 +19,6 @@ export default function EcommerceCard() {
         A full-featured e-commerce web application inspired by Nykaa. Users can browse products, add items to the cart, place orders, and track their purchases. Built with React, Next.js, and modern web technologies for a smooth shopping experience.
       </p>
 
-      {/* Tech / Feature Icons */}
       <div className="flex justify-center gap-4 mt-5 mb-4 text-2xl">
         <span title="Shopping Cart">🛒</span>
         <span title="Products & Categories">🛍️</span>

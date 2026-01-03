@@ -2,7 +2,6 @@ export default function PortfolioCard() {
   return (
     <div className="relative bg-[#0b2545] text-white p-6 mt-10 rounded-2xl w-80 text-center shadow-lg mx-auto">
       
-      {/* Floating Icon */}
       <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-white p-3 rounded-full shadow-md">
         <img
           src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
@@ -21,7 +20,6 @@ export default function PortfolioCard() {
         quickly understand my technical capabilities.
       </p>
 
-      {/* Portfolio-related icons */}
       <div className="flex justify-center gap-4 mt-5 mb-4 text-2xl">
         <span title="Developer">👩‍💻</span>
         <span title="Projects">💼</span>
