@@ -1,9 +1,9 @@
 import "./works.css";
-import Weathercard from "./weathercard";
-import Portfoliocard from "./portfoliocard";
-import AdminDashboardCard from "./admindashboardcard";
-import Taskmanagementcard from "./taskmanagementcard";
-import Ecommercecard from "./ecommercecard";
+import Weathercard from "./components/weathercard";
+import Portfoliocard from "./components/portfoliocard";
+import AdminDashboardCard from "./components/admindashboardcard";
+import Taskmanagementcard from "./components/taskmanagementcard";
+import Ecommercecard from "./components/ecommercecard";
 
 export default function Works() {
   return (
@@ -13,12 +13,12 @@ export default function Works() {
           My <span className="text-blue-600">Works</span>
         </h1>
       </div>
-      <div className="flex flex-row items-start justify-center gap-16 flex-wrap">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 place-items-center">
+        <Ecommercecard></Ecommercecard>
         <Weathercard></Weathercard>
-        <Portfoliocard></Portfoliocard>
         <AdminDashboardCard></AdminDashboardCard>
         <Taskmanagementcard></Taskmanagementcard>
-        <Ecommercecard></Ecommercecard>
+        <Portfoliocard></Portfoliocard>
       </div>
     </div>
   );
