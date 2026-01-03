@@ -1,7 +1,9 @@
 import "./works.css";
 import Weathercard from "./weathercard";
 import Portfoliocard from "./portfoliocard";
-import Admindashboardcard from "./admindashboardcard";
+import AdminDashboardCard from "./admindashboardcard";
+import Taskmanagementcard from "./taskmanagementcard";
+import Ecommercecard from "./ecommercecard";
 
 export default function Works() {
   return (
@@ -14,8 +16,11 @@ export default function Works() {
       <div className="flex flex-row items-start justify-center gap-16 flex-wrap">
         <Weathercard></Weathercard>
         <Portfoliocard></Portfoliocard>
-        <Admindashboardcard></Admindashboardcard>
+        <AdminDashboardCard></AdminDashboardCard>
+        <Taskmanagementcard></Taskmanagementcard>
+        <Ecommercecard></Ecommercecard>
       </div>
     </div>
   );
 }
+
