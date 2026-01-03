@@ -1,21 +1,22 @@
 import heroimage from "./assets/hero.png";
+import heroMobile from "./assets/mobile.png";
 
 export default function Hero() {
   return (
-    <section
+<section
       id="home"
       className="relative min-h-[calc(100vh-80px)] flex items-center"
       style={{
-        backgroundImage: `url('${heroimage}')`,
+        backgroundImage: `url(${window.innerWidth < 768 ? heroMobile : heroimage})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
+ 
       <div className="absolute inset-0 bg-white/40 backdrop-blur-[1px]" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 w-full flex justify-between items-center gap-8">
-        {/* LEFT - Text Section */}
         <div className="max-w-lg text-left flex-1">
           <p
             className="text-2xl text-gray-700 mb-4"
@@ -48,9 +49,7 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* RIGHT - Image Section */}
         <div className="relative flex-1 flex justify-center items-center">
-          {/* subtle glow halo */}
           <div className="absolute w-96 h-96 
                           bg-gradient-to-r from-purple-300 via-pink-300 to-indigo-300
                           rounded-full blur-3xl opacity-40" />
